@@ -7,8 +7,8 @@ function sameValuesCounter(array) {
     for (var key in temp) {
         if (temp.hasOwnProperty(key)) {
             output.push({
-                count: temp[key],
                 value: key,
+                count: temp[key],
             });
         }
     }
