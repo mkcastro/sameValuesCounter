@@ -1,20 +1,12 @@
 # Run:
-```no-highlight
+```bash
 `npm i`
 ```
-or
-```no-highlight
-`yarn install`
-```
 # Then run:
-```no-highlight
+```bash
 `jest`
 ```
 or
-```no-highlight
+```bash
 `npm test`
-```
-or
-```no-highlight
-`yarn test`
 ```
