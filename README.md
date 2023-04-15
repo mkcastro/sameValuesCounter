@@ -1,12 +1,8 @@
 # Run:
 ```bash
-`npm i`
+pnpm i
 ```
 # Then run:
 ```bash
-`jest`
-```
-or
-```bash
-`npm test`
+npm test
 ```
