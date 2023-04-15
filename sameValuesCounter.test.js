@@ -4,11 +4,17 @@ function sameValuesCounter(array) {
     array.forEach((element) => {
         temp[element] = (temp[element] || 0) + 1;
     });
-    for (var key in temp) {
-        if (temp.hasOwnProperty(key)) {
+    temp = aggregateCounters(temp);
+    return output;
+}
+
+function aggregateCounters(object) {
+    let output = {};
+    for (var key in object) {
+        if (object.hasOwnProperty(key)) {
             output.push({
                 value: key,
-                count: temp[key],
+                count: object[key],
             });
         }
     }
